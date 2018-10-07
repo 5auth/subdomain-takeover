@@ -100,7 +100,7 @@ class DnsSorgu(threading.Thread):
                     "bitbucket":"https://bitbucket.org/",
                     "unbounce.com":"https://unbounce.com/",
                     "vend":"https://vendcommerce.com/",
-                    "zendesk.com":"https://www.zendesk.com/"
+                    "zendesk.com":"https://www.zendesk.com/",
 		    "surge.sh":"https://surge.sh/"}
 
         self.response=["<strong>Trying to access your account",

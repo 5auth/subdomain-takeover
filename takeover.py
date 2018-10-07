@@ -100,8 +100,9 @@ class DnsSorgu(threading.Thread):
                     "bitbucket":"https://bitbucket.org/",
                     "unbounce.com":"https://unbounce.com/",
                     "vend":"https://vendcommerce.com/",
-                    "zendesk.com":"https://www.zendesk.com/"}    
-        
+                    "zendesk.com":"https://www.zendesk.com/"
+		    "surge.sh":"https://surge.sh/"}
+
         self.response=["<strong>Trying to access your account",
                        "Use a personal domain name",
                         "The request could not be satisfied",
@@ -109,14 +110,14 @@ class DnsSorgu(threading.Thread):
                         "Fastly error: unknown domain",
                         "The feed has not been found",
                         "You can claim it now at",
-                        "Publishing platform",                        
+                        "Publishing platform",
                         "There isn't a GitHub Pages site here",
-                        "<title>No such app</title>",                        
+                        "<title>No such app</title>",
                         "No settings were found for this company",
                         "<title>No such app</title>",
                         "is not a registered InCloud YouTrack.",
                         "You've Discovered A Missing Link. Our Apologies!",
-                        "Sorry, couldn&rsquo;t find the status page",                        
+                        "Sorry, couldn&rsquo;t find the status page",
                         "NoSuchBucket",
                         "Sorry, this shop is currently unavailable",
                         "<title>Hosted Status Pages for Your Company</title>",
@@ -129,7 +130,10 @@ class DnsSorgu(threading.Thread):
                         "This UserVoice subdomain is currently available!",
                         "but is not configured for an account on our platform",
                         "Looks like you've traveled too far into cyberspace."
-                        "<title>Help Center Closed | Zendesk</title>"]
+                        "<title>Help Center Closed | Zendesk</title>"
+			"project not found"]
+
+
         
         self.success = colorama.Fore.GREEN 
         self.error = colorama.Fore.RED   
